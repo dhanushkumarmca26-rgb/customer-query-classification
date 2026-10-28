@@ -1,0 +1,20 @@
+
+id,customer_query,expected_category
+1,"My order has not arrived yet.",Delivery
+2,"My delivery is three days late.",Delivery
+3,"My package is stuck in transit.",Shipping
+4,"The tracking status has not changed for five days.",Shipping
+5,"I haven't received my money back.",Refund
+6,"When will my refund be processed?",Refund
+7,"Money was deducted twice from my account.",Payment
+8,"My online payment failed, but the amount was deducted.",Payment
+9,"I want to cancel my order.",Cancellation
+10,"Please cancel my order before it ships.",Cancellation
+11,"The product I received is broken.",Defect
+12,"My headphones are not working.",Defect
+13,"I want to send this product back.",Return
+14,"How can I exchange the shirt I purchased?",Return
+15,"I cannot log in to my account.",Account
+16,"I forgot my password and cannot access my account.",Account
+17,"What is the capital of India?",Unknown
+18,"Tell me a joke.",Unknown
