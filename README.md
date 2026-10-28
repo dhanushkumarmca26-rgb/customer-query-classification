@@ -3,41 +3,38 @@
 
 ## Project Overview
 This project classifies e-commerce customer queries
-into predefined categories using Python and a
-classification prompt.
+into predefined categories using prompt engineering.
 
 ## Categories
-- Delivery
-- Shipping
-- Refund
-- Payment
-- Cancellation
-- Defect
-- Return
-- Account
-- Unknown
+1. Delivery
+2. Shipping
+3. Refund
+4. Payment
+5. Cancellation
+6. Defect
+7. Return
+8. Account
+9. Unknown
 
-## Technologies
-- Python
-- Prompt Engineering
-- GitHub
+## Project Files
+- prompt.txt: Classification prompt and instructions.
+- test_cases.csv: Test queries and expected outputs.
+- README.md: Project documentation.
 
-## How to Run
-1. Install Python 3.
-2. Download or clone this repository.
-3. Open a terminal in the project folder.
-4. Run:
+## How to Test
+1. Copy the prompt from prompt.txt.
+2. Replace {{customer_query}} with a test query.
+3. Submit the prompt to your chosen AI model.
+4. Compare the model's response with the expected
+   category in test_cases.csv.
+5. Verify that the response contains exactly one
+   valid category word.
 
-   python main.py
+## Expected Output
+The output must contain exactly one category:
+Delivery, Shipping, Refund, Payment, Cancellation,
+Defect, Return, Account, or Unknown.
 
-5. Enter a customer query and view the predicted category.
-
-## Example
-Input: My order has not arrived yet.
-
-Output: Delivery
-
-## Current Implementation
-The initial version uses keyword-based rules.
-The prompt is included as a specification for
-a future AI-powered classifier.
+## Objective
+To classify customer queries accurately and
+consistently using prompt engineering.
